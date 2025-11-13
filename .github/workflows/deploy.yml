@@ -36,4 +36,4 @@ jobs:
         run: sam build
 
       - name: SAM Deploy
-        run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name aws-sam-cli-managed-default --capabilities CAPABILITY_IAM --region ap-southeast-1
+        run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name d-soa-sam-app-1 --capabilities CAPABILITY_IAM --region ap-southeast-1
